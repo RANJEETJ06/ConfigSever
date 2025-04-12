@@ -6,8 +6,8 @@ spring:
 build:
   version: "3.0"
 
-cards:
-  message: "Welcome to Bank cards related local APIs production"
+accounts:
+  message: "Welcome to Bank accounts related local APIs production"
   contactDetails:
     name: "Dragos Lech - Developer"
     email: "dragos@bank.com"

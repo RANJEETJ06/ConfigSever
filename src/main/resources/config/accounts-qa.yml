@@ -7,8 +7,8 @@ spring:
 build:
   version: "2.0"
 
-cards:
-  message: "Welcome to Bank cards related local APIs QA "
+accounts:
+  message: "Welcome to Bank accounts related local APIs QA "
   contactDetails:
     name: "Dragos Lech - Developer"
     email: "dragos@bank.com"
