@@ -4,11 +4,17 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"
+#        native:
+#          search-locations: "classpath:/config"
+        git:
+          uri: "https://github.com/RANJEETJ06/ConfigSever.git"
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+
 encrypt:
   key: 'adj97FBR7OreKVDlOsZywVZ7YAPEI6vf'
