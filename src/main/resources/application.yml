@@ -15,7 +15,7 @@ spring:
           default-label: "master"
           timeout: 5
           clone-on-start: true
-          searchPaths: '/config'
+          searchPaths: config
   rabbitmq:
     host: "localhost"
     port: 5672
