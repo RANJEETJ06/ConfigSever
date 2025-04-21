@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.learn</groupId>
-    <artifactId>ServerConfig</artifactId>
+    <artifactId>configserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ServerConfig</name>
     <description>ServerConfig</description>
@@ -78,7 +78,7 @@
                 <version>3.4.5</version>
                 <configuration>
                     <to>
-                        <image>ranjeetjena06/serverconfig:v1</image>
+                        <image>ranjeetjena06/configserver:v1</image>
                     </to>
                 </configuration>
             </plugin>
