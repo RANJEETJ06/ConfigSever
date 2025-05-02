@@ -22,6 +22,9 @@ management:
     web:
       exposure:
         include: "*"
+  metrics:
+    tags:
+      application: ${spring.application.name}
   health:
     readiness-state:
       enabled: true
@@ -34,3 +37,8 @@ management:
 
 encrypt:
   key: 'adj97FBR7OreKVDlOsZywVZ7YAPEI6vf'
+
+logging:
+  level:
+    pattern:
+      level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"
