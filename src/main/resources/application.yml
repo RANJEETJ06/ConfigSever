@@ -12,15 +12,10 @@ spring:
 #          search-locations: "classpath:/config"
         git:
           uri: "https://github.com/RANJEETJ06/ConfigSever.git"
-          default-label: "master"
+          default-label: "master1.1"
           timeout: 5
           clone-on-start: true
           searchPaths: src/main/resources/config
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "guest"
-    password: "guest"
 
 management:
   endpoints:
